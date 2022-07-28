@@ -16,12 +16,11 @@ body {
     height: 60vh;
 }
 
-.carousel-indicators{
+.carousel-indicators {
     display: none;
 }
 
-@media only screen and (min-width:577px) and (max-width:768px)
- {
+@media only screen and (min-width:577px) and (max-width:768px) {
     .carousel-caption {
         height: auto !important;
     }
@@ -38,6 +37,7 @@ body {
         font-size: 24px !important;
     }
 }
+
 @media only screen and (max-width:576px) {
     .carousel-caption {
         height: auto !important;
