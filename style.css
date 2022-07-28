@@ -1,9 +1,9 @@
-body{
+body {
     font-family: 'Kodchasan', sans-serif;
 }
+
 .carousel-item {
     background: #1D1D1D 70%;
-    ;
 }
 
 .carousel-item img {
@@ -13,4 +13,27 @@ body{
 
 .carousel-caption {
     opacity: 1;
+    height: 50vh;
+}
+
+.carousel-indicators{
+    display: none;
+}
+
+@media only screen and (max-width:768px) {
+    .carousel-caption {
+        height: auto !important;
+    }
+
+    .carousel-para {
+        font-size: 11px !important;
+    }
+
+    #carousel-button {
+        padding: 5px 10px !important;
+    }
+
+    #carousel-heading {
+        font-size: 20px !important;
+    }
 }
