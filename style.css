@@ -1,0 +1,13 @@
+.carousel-item {
+    background: #1D1D1D 70%;
+    ;
+}
+
+.carousel-item img {
+    background-size: cover;
+    opacity: 0.3;
+}
+
+.carousel-caption {
+    opacity: 1;
+}
