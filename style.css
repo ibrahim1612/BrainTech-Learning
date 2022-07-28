@@ -8,12 +8,12 @@ body {
 
 .carousel-item img {
     background-size: cover;
-    opacity: 0.3;
+    opacity: 0.25;
 }
 
 .carousel-caption {
     opacity: 1;
-    height: 50vh;
+    height: 60vh;
 }
 
 .carousel-indicators{
@@ -25,15 +25,15 @@ body {
         height: auto !important;
     }
 
-    .carousel-para {
-        font-size: 11px !important;
+    .carsl-para {
+        font-size: 12px !important;
     }
 
-    #carousel-button {
-        padding: 5px 10px !important;
+    .carsl-button {
+        padding: 10px 15px !important;
     }
 
-    #carousel-heading {
-        font-size: 20px !important;
+    .carsl-heading {
+        font-size: 24px !important;
     }
 }
