@@ -1,7 +1,9 @@
+/* For font */
 body {
     font-family: 'Kodchasan', sans-serif;
 }
 
+/* for Carousel */
 .carousel-item {
     background: #1D1D1D 70%;
 }
@@ -20,25 +22,8 @@ body {
     display: none;
 }
 
-@media only screen and (min-width:577px) and (max-width:768px) {
-    .carousel-caption {
-        height: auto !important;
-    }
-
-    .carsl-para {
-        font-size: 12px !important;
-    }
-
-    .carsl-button {
-        padding: 10px 15px !important;
-    }
-
-    .carsl-heading {
-        font-size: 24px !important;
-    }
-}
-
-@media only screen and (max-width:576px) {
+/* Carousel caption Responsiveness in extra small device  */
+@media only screen and (max-width:575px) {
     .carousel-caption {
         height: auto !important;
     }
@@ -53,5 +38,24 @@ body {
 
     .carsl-heading {
         font-size: 1.5vh !important;
+    }
+}
+
+/* Carousel caption Responsiveness in small device  */
+@media only screen and (min-width:576px) and (max-width:768px) {
+    .carousel-caption {
+        height: auto !important;
+    }
+
+    .carsl-para {
+        font-size: 12px !important;
+    }
+
+    .carsl-button {
+        padding: 10px 15px !important;
+    }
+
+    .carsl-heading {
+        font-size: 24px !important;
     }
 }
